@@ -1,0 +1,66 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <!-- Tools -->
+    <!-- <item
+        android:id="@+id/tools"
+        app:actionViewClass="android.widget.Spinner"
+        android:icon="@mipmap/tools_icon"
+        android:title="Tools"
+        app:showAsAction="always" />-->
+    <!-- ******* -->
+
+    <!-- Shapes -->
+    <item
+        android:id="@+id/shapes"
+        app:actionViewClass="android.widget.Spinner"
+        android:icon="@mipmap/shapes_icon"
+        android:title="Shapes"
+        app:showAsAction="always" />
+    <!-- ******* -->
+
+    <!-- Lines -->
+    <item
+        android:id="@+id/lines"
+        app:actionViewClass="android.widget.Spinner"
+        android:icon="@mipmap/lines_icon"
+        android:title="Lines"
+        app:showAsAction="always" />
+    <!-- ******* -->
+
+    <!-- Text -->
+    <item
+        android:id="@+id/text"
+        app:actionViewClass="android.widget.Spinner"
+        android:icon="@mipmap/text_icon"
+        android:title="Text"
+        app:showAsAction="always" />
+    <!-- ******* -->
+
+    <!-- Images -->
+    <item
+        android:id="@+id/images"
+        android:icon="@mipmap/images_icon"
+        android:title="Images"
+        app:showAsAction="always" />
+    <!-- ******* -->
+
+    <!-- Delete -->
+    <item
+        android:id="@+id/delete"
+        android:icon="@mipmap/delete_icon"
+        android:title="Delete"
+        app:showAsAction="always" />
+    <!-- ******* -->
+
+    <!-- Options -->
+    <item
+        android:id="@+id/options"
+        app:actionViewClass="android.widget.Spinner"
+        android:icon="@mipmap/options_icon"
+        android:title="Options"
+        app:showAsAction="never" />
+    <!-- ******* -->
+
+</menu>
